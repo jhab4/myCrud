@@ -49,6 +49,7 @@ return array(
 				'<controller:\w+>/user/delete/<id:\d+>'=>'<controller>/delete',
 				'<controller:\w+>/user/index'=>'<controller>/index',
 				'<controller:\w+>/user/'=>'<controller>/index',
+				'<controller:\w+>/view/<name:\w+>'=>'<controller>/view',
 				
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
